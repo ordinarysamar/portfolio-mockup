@@ -1,0 +1,407 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+/* style reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+/*
+::-webkit-scrollbar-thumb {
+	background: rgba(256, 256, 256, 0.50);
+}
+*/
+
+.reset {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	top: 5vh;
+	width: 100%;
+
+}
+
+.logo {
+
+	padding: 2px;
+
+	width: 10%;
+	content: url("./assets/logo.svg");
+
+	transition: all ease 500ms;
+}
+
+.logo:hover {
+	width: 10%;
+	content: url("./assets/animated_logo.gif");
+}
+
+.navbar , .logo {
+	outline: 5px solid #fff;
+
+}
+
+.navlinks {
+	margin-left: auto;
+	margin-right: 20px;
+	width: 40%;
+	font-family: Monument Extended;
+	font-weight: 600;
+	font-size: 18px;
+
+	color: #fff;
+
+	text-transform: uppercase;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navlinks a {
+	padding: 5px 10px;
+	border: 2px dashed #000;
+
+	transition: all ease 500ms;
+}
+
+.navlinks a:hover {
+	border: 2px dashed #fff;
+}
+
+.hero {
+
+	margin: 30vh 2.5vw;
+	margin-bottom: 0;
+
+	color: #fff;
+
+
+}
+
+.hero .title {
+	font-family: Monument Extended;
+	font-weight: 800;
+	font-size: 8vw;
+
+	text-transform: capitalize;
+}
+
+.title .highlight {
+	background-image: url(./assets/grid.png);
+	padding: 20px;
+
+	border: 5px solid #fff ;
+	border-radius: 20px;
+
+}
+
+.hero .subtitle {
+	font-family : Monument Extended;
+	font-size: 22px;
+	font-weight: 600;
+
+	text-transform: capitalize;
+
+	color: #353535;
+}
+
+.placeholders {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+
+	max-height: 20vh;
+
+	margin-top: 8vh;
+
+
+	filter: invert(100%);
+
+	overflow: hidden;
+}
+
+.placeholders div {
+
+	overflow: hidden;
+	background-color: #fff;
+
+
+	border-radius: 20px;
+
+}
+
+.placeholders div:nth-child(2) img {
+	top: -20vh;	
+}
+
+.placeholders div:nth-child(3) img {
+	top: -30vh;
+	right: 10vw;	
+}
+
+.placeholders div img {
+	position: relative;
+	top: -115vh;
+}
+
+.message {
+	font-family: Cartograph CF;
+	font-size: 22px ;
+
+	color: #AAAAAA;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 10vh;
+
+	padding: 1em;
+
+	border: 5px solid #fff;
+
+	text-align: justify;
+}
+
+.message .title {
+
+	position: relative;
+
+	font-size: 2vw;
+	font-weight: 600;
+
+	width: fit-content;
+
+	padding: 0 10px;
+
+	margin:  0 0 15px 0;
+
+
+	color: #000;
+	border-radius: 5px;
+
+	overflow: hidden;
+}
+
+.message .title::after {
+	
+	content: "";
+	position: absolute;
+
+	width: 100vw;
+	height: 100vh;
+
+	top: var(--posx);
+	left: var(--posy);
+
+	background-image: url(./assets/noise-texture2.jpg);
+	z-index: -1;
+
+	transition: all ease 500ms;
+
+}
+
+:root {
+	--posx: -50px;
+	--posy: -50px;
+}
+
+.message .highlight {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.blog-container {
+	margin-top: 10vh;
+}
+
+.blog-container .title span {
+	border-right: 5px solid #fff;
+
+	padding: 0 20px 0;
+}
+
+.blog-container .title span:nth-child(2) {
+	font-family: Monument Extended;
+}
+
+.blog-container .title {
+	display: flex;
+
+	font-family: Cartograph CF;
+	font-weight: 700;
+	font-size: 4vw;
+
+	color: #fff	;
+
+	outline: 5px solid #fff;
+}
+
+.blog-container .blogs {
+
+	margin: 5vw;
+
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+
+	text-transform: capitalize;
+
+	font-family: Monument Extended;
+	font-size: 2.5vw;
+}
+
+.blog-container .blog {
+	padding: 1.5vw 2vw;
+
+	border-bottom: 2px solid #272727;
+}
+
+.blog-container .blog {
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+
+	transition: all ease 500ms;
+}
+
+.blog-container .blog svg {
+	width: 4vw;
+	height: 4vw;
+
+	padding: 5px;
+	transition: all ease 500ms;
+}
+
+.blog-container .blog:hover {
+	background: #272727;
+}
+
+.blog-container .blog:hover svg {
+	background: white;
+
+	box-shadow: 8px 8px 0 #000;
+
+	color: #000;
+}
+
+.blog-container .blog:first-child {
+	border-top: 2px solid #272727;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+	margin: 15vh 2.5vw 0;
+	padding: 5vw 2.5vw;
+
+	border-radius: 0 0 5vw 5vw;
+
+	background-image: url(./assets/polkaDotsdesign.jpg);
+
+
+}
+
+.contact span {
+	font-family: Monument Extended;
+	font-weight: 600;
+	font-size: 3vw;
+
+	text-align: center;
+
+	padding: 10px 20px;
+
+	width: 60%;
+
+	text-transform: capitalize;
+
+	background: #fff;
+
+}
+
+.link-container {
+	display: flex;
+	justify-content: space-between;
+
+	width: 40%;
+
+	margin-top: 10vh ;
+
+	font-family: Cartograph CF;
+	font-weight: bolder;
+	font-size: 20px;
+
+	text-transform: capitalize;
+
+}
+
+.link-container a {
+	border-radius: 100vw;
+	border: 2px solid #000;
+
+	padding: 10px 20px;
+
+	transition: all ease 500ms;
+
+	background: #fff;
+}
+
+.link-container a:hover {
+
+
+	color: #fff;
+	background: #000;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+}
+
+.link svg {
+	margin-right: 10px;
+}
+
+.regards {
+	margin: 5vh;
+}
+
+.regards span {
+	display: flex;
+	align-content: center;
+
+	font-family: 'Poppins' , sans-serif;
+	font-size: 16px;
+	font-weight: thin;
+
+	width: 100%;
+
+	justify-content: center;
+
+	color: #fff;
+}
+
+.regards span svg {
+	margin: 0 10px;
+}

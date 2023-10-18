@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.658028mm"
+   height="16.277184mm"
+   viewBox="0 0 16.658028 16.277184"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="false"
+     inkscape:zoom="5.2006869"
+     inkscape:cx="34.803095"
+     inkscape:cy="37.879611"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-5"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.942682,-149.84148)">
+    <circle
+       style="opacity:1;fill:#545454;fill-opacity:1;stroke:none;stroke-width:0.677819;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="circle60"
+       cx="60.42667"
+       cy="156.32547"
+       r="6.4839892" />
+    <circle
+       style="opacity:1;fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:0.135564;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="circle62"
+       cx="62.183918"
+       cy="157.94957"
+       r="6.4839892" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.135564;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="circle61"
+       cx="64.116722"
+       cy="159.63467"
+       r="6.4839892" />
+  </g>
+</svg>

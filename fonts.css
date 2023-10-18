@@ -1,0 +1,365 @@
+
+/*FONT : BERGEN MONO*/
+
+@font-face {
+    font-family: 'Bergen Mono';
+    src: url('./fonts/Bergen_Mono/BergenMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bergen Mono';
+    src: url('BergenMono-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bergen Mono Semi';
+    src: url('./fonts/Bergen_Mono/BergenMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bergen Mono';
+    src: url('./fonts/Bergen_Mono/BergenMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bergen Mono';
+    src: url('./fonts/Bergen_Mono/BergenMono-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bergen Mono Semi';
+    src: url('./fonts/Bergen_Mono/BergenMono-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*FONT : VISBY SANS SERIF*/
+
+
+@font-face {
+    font-family: 'Visby CF Demi';
+    src: url('./fonts/visby_sans_serif/VisbyCF-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF Demi';
+    src: url('./fonts/visby_sans_serif/VisbyCF-DemiBoldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-HeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF Extra';
+    src: url('./fonts/visby_sans_serif/VisbyCF-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF Extra';
+    src: url('./fonts/visby_sans_serif/VisbyCF-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby CF';
+    src: url('./fonts/visby_sans_serif/VisbyCF-RegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* FONT : MONUMENT EXTENDED DISPLAY */
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('PPMonumentExtended-BlackItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./fonts/Monument_Extended/PPMonumentExtended-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./fonts/Monument_Extended/PPMonumentExtended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./fonts/Monument_Extended/PPMonumentExtended-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./fonts/Monument_Extended/PPMonumentExtended-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./fonts/Monument_Extended/PPMonumentExtended-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* FONT : CARTOGRAPH */
+
+@font-face {
+    font-family: 'Cartograph CF Demi';
+    src: url('./fonts/cartograph/CartographCF-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF Extra';
+    src: url('./fonts/cartograph/CartographCF-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF Extra';
+    src: url('./fonts/cartograph/CartographCF-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF Extra';
+    src: url('./fonts/cartograph/CartographCF-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF Demi';
+    src: url('./fonts/cartograph/CartographCF-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF Extra';
+    src: url('./fonts/cartograph/CartographCF-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cartograph CF';
+    src: url('./fonts/cartograph/CartographCF-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
