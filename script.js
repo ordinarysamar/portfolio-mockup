@@ -7,6 +7,12 @@ function rndnum(min, max) { // min and max included
 
 var targetRandom = document.documentElement
 
+var gifPreload = document.querySelector(".logo")
+
+setTimeout( function() {
+	gifPreload.src = "./assets/logo.svg"
+},2000)
+
 
 // function for random movement of background picture
 
