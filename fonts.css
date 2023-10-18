@@ -1,7 +1,7 @@
 
 /*FONT : BERGEN MONO*/
 
-@font-face {
+/*@font-face {
     font-family: 'Bergen Mono';
     src: url('./fonts/Bergen_Mono/BergenMono-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -47,12 +47,12 @@
     font-weight: 600;
     font-style: italic;
     font-display: swap;
-}
+}*/
 
 /*FONT : VISBY SANS SERIF*/
 
 
-@font-face {
+/*@font-face {
     font-family: 'Visby CF Demi';
     src: url('./fonts/visby_sans_serif/VisbyCF-DemiBold.ttf') format('truetype');
     font-weight: 600;
@@ -179,7 +179,7 @@
     font-style: italic;
     font-display: swap;
 }
-
+*/
 
 /* FONT : MONUMENT EXTENDED DISPLAY */
 
